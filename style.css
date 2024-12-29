@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+.main{
+  height: 100%;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "montserrat";
+  background-color: #171717;
+}
+nav{
+  height: 10%;
+  padding: 0 1rem;
+  color: white;
+  border: 2px grey solid;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  border-bottom: 3px solid grey;
+  justify-content: space-between;
+}
+.part1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.part1 > i{
+  font-size: 22px;
+  border-radius: 20px;
+  background-color: black;
+}
+.part1 > p{
+  font-weight: 600;
+}
+.part2{
+  display: flex;
+  gap: 20px;
+}
+.part2 > a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.content{
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  border: 2px solid grey;
+}
+.profile_photo{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+.profile_photo > img{
+  width: 100%;
+}
+.content > h1{
+  text-align: center;
+  width: 30%;
+  font-weight: 900;
+}
+button{
+  color: black;
+  border: none;
+  font-family: "montserrat";
+  font-weight: 800;
+  border-radius: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.links{
+  height: 10%;
+  display: flex;
+  border: 2px solid grey;
+  justify-content: space-evenly;
+}
+.links .box{
+  height: 100%;
+  width: 16%;
+}
+.box > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
