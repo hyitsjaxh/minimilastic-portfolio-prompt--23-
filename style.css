@@ -84,6 +84,8 @@ button{
 .links{
   height: 10%;
   display: flex;
+  border-radius: 10px;
+  padding: 5px;
   border: 2px solid grey;
   justify-content: space-evenly;
 }
